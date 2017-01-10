@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_home_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nikola.sunshine.HomeScreenActivity">
+
+
+    <Button
+        android:text="Log in"
+        android:id="@+id/button_log_in"
+        app:layout_widthPercent="22%"
+        app:layout_heightPercent="10%"
+        app:layout_marginLeftPercent="39%"
+        app:layout_marginTopPercent="22%"
+        android:onClick="logIn"
+        />
+
+    <Button
+        android:text="About"
+        android:id="@+id/button_about"
+        app:layout_widthPercent="22%"
+        app:layout_heightPercent="10%"
+        app:layout_marginLeftPercent="39%"
+        app:layout_marginTopPercent="62%"
+        android:onClick="about"
+        />
+</android.support.percent.PercentRelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/activity_third"
+    android:layout_centerInParent="true"
+    android:background="@drawable/background_gradient">
+
+
+    <ImageView
+        app:layout_widthPercent="40%"
+        app:layout_heightPercent="33%"
+        app:srcCompat="@drawable/plane"
+        android:id="@+id/imageView3"
+        app:layout_marginLeftPercent="30%"
+        app:layout_marginTopPercent="60%"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"/>
+
+    <TextView
+        android:text="А a"
+        android:layout_width ="wrap_content"
+        android:layout_height = "wrap_content"
+        android:gravity="center"
+        android:textSize = "40dp"
+        android:id="@+id/textView"
+        android:background="@android:color/transparent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        app:layout_widthPercent="30%"
+        app:layout_heightPercent="30%"
+        app:srcCompat="@drawable/groups"
+        android:id="@+id/imageView2"
+        app:layout_marginTopPercent="7%"
+        android:background="@android:color/transparent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp" />
+</android.support.percent.PercentRelativeLayout>

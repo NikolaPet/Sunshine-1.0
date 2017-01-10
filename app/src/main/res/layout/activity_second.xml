@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/background_gradient">
+
+
+    <ImageButton
+        app:layout_widthPercent="40%"
+        app:layout_heightPercent="30%"
+        app:srcCompat="@drawable/question"
+        android:id="@+id/imgBtn1"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        app:layout_marginLeftPercent="10%"
+        app:layout_marginTopPercent="5%"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        app:layout_widthPercent="40%"
+        app:layout_heightPercent="30%"
+        app:srcCompat="@drawable/question"
+        android:id="@+id/imgBtn2"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        app:layout_marginLeftPercent="50%"
+        app:layout_marginTopPercent="5%"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        app:layout_widthPercent="40%"
+        app:layout_heightPercent="30%"
+        app:srcCompat="@drawable/question"
+        android:id="@+id/imgBtn3"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        app:layout_marginLeftPercent="10%"
+        app:layout_marginTopPercent="35%"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        app:layout_widthPercent="40%"
+        app:layout_heightPercent="30%"
+        app:srcCompat="@drawable/question"
+        android:id="@+id/imgBtn4"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        app:layout_marginLeftPercent="50%"
+        app:layout_marginTopPercent="35%"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        app:layout_widthPercent="40%"
+        app:layout_heightPercent="30%"
+        app:srcCompat="@drawable/question"
+        android:id="@+id/imgBtn5"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        app:layout_marginLeftPercent="10%"
+        app:layout_marginTopPercent="65%"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        app:layout_widthPercent="40%"
+        app:layout_heightPercent="30%"
+        app:srcCompat="@drawable/question"
+        android:id="@+id/imgBtn6"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        app:layout_marginLeftPercent="50%"
+        app:layout_marginTopPercent="65%"
+        tools:ignore="ContentDescription" />
+
+</android.support.percent.PercentRelativeLayout>
